@@ -1,0 +1,54 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+#add-task-button {
+    background-color: #CCA9DD;
+    border-color: #CCA9DD;
+    color: white;
+    padding: 5px 10px;
+    border-style: solid;
+}
+
+#input-task {
+    border: none;
+    border-bottom: 3px solid #CCA9DD;
+    width: 80%;
+}
+
+#task-list {
+    position : relative;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.delete-btn {
+    border:none;
+    background-color: white;
+    position: absolute;
+    right: 20%;
+}
+
+.task {
+    margin-left: 50px;
+}
+.delete-btn img {
+    width: 26px;
+    height: 26px;
+}
+
+.checked_task {
+    text-decoration: line-through;
+}
